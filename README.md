@@ -1,1 +1,0 @@
-My WPF demo project
