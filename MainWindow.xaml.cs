@@ -40,6 +40,7 @@ namespace WpfDemo
 
             // PivotGridControl에 데이터 바인딩
             pivotGridControl.DataSource = SalesDataList;
+            //주석추가
         }
 
         public class SalesData
