@@ -8,4 +8,11 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Data" Version="24.1.4" />
+    <PackageReference Include="DevExpress.Wpf.Grid.Core" Version="24.1.4" />
+    <PackageReference Include="devexpress.wpf.pivotgrid" Version="24.1.4" />
+    <PackageReference Include="MahApps.Metro" Version="2.4.9" />
+  </ItemGroup>
+
 </Project>

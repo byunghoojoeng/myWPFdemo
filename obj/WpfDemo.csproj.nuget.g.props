@@ -14,4 +14,29 @@
     <SourceRoot Include="C:\Program Files\DevExpress 24.1\Components\Offline Packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.data.desktop\24.1.4\build\netcoreapp3.0\DevExpress.Data.Desktop.props" Condition="Exists('C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.data.desktop\24.1.4\build\netcoreapp3.0\DevExpress.Data.Desktop.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_Xaml_Behaviors_Wpf Condition=" '$(PkgMicrosoft_Xaml_Behaviors_Wpf)' == '' ">C:\Users\byung\.nuget\packages\microsoft.xaml.behaviors.wpf\1.1.19</PkgMicrosoft_Xaml_Behaviors_Wpf>
+    <PkgMahApps_Metro Condition=" '$(PkgMahApps_Metro)' == '' ">C:\Users\byung\.nuget\packages\mahapps.metro\2.4.9</PkgMahApps_Metro>
+    <PkgDevExpress_Data Condition=" '$(PkgDevExpress_Data)' == '' ">C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.data\24.1.4</PkgDevExpress_Data>
+    <PkgDevExpress_Xpo Condition=" '$(PkgDevExpress_Xpo)' == '' ">C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.xpo\24.1.4</PkgDevExpress_Xpo>
+    <PkgDevExpress_Wpf_Core Condition=" '$(PkgDevExpress_Wpf_Core)' == '' ">C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.wpf.core\24.1.4</PkgDevExpress_Wpf_Core>
+    <PkgDevExpress_Wpf_Ribbon Condition=" '$(PkgDevExpress_Wpf_Ribbon)' == '' ">C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.wpf.ribbon\24.1.4</PkgDevExpress_Wpf_Ribbon>
+    <PkgDevExpress_Wpf_LayoutControl Condition=" '$(PkgDevExpress_Wpf_LayoutControl)' == '' ">C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.wpf.layoutcontrol\24.1.4</PkgDevExpress_Wpf_LayoutControl>
+    <PkgDevExpress_Wpf_Grid_Core Condition=" '$(PkgDevExpress_Wpf_Grid_Core)' == '' ">C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.wpf.grid.core\24.1.4</PkgDevExpress_Wpf_Grid_Core>
+    <PkgDevExpress_Wpf_Controls Condition=" '$(PkgDevExpress_Wpf_Controls)' == '' ">C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.wpf.controls\24.1.4</PkgDevExpress_Wpf_Controls>
+    <PkgDevExpress_Wpf_DocumentViewer_Core Condition=" '$(PkgDevExpress_Wpf_DocumentViewer_Core)' == '' ">C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.wpf.documentviewer.core\24.1.4</PkgDevExpress_Wpf_DocumentViewer_Core>
+    <PkgDevExpress_Wpf_Docking Condition=" '$(PkgDevExpress_Wpf_Docking)' == '' ">C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.wpf.docking\24.1.4</PkgDevExpress_Wpf_Docking>
+    <PkgDevExpress_Wpf_Printing Condition=" '$(PkgDevExpress_Wpf_Printing)' == '' ">C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.wpf.printing\24.1.4</PkgDevExpress_Wpf_Printing>
+    <PkgDevExpress_Wpf_RichEdit Condition=" '$(PkgDevExpress_Wpf_RichEdit)' == '' ">C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.wpf.richedit\24.1.4</PkgDevExpress_Wpf_RichEdit>
+    <PkgDevExpress_Wpf_PropertyGrid Condition=" '$(PkgDevExpress_Wpf_PropertyGrid)' == '' ">C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.wpf.propertygrid\24.1.4</PkgDevExpress_Wpf_PropertyGrid>
+    <PkgDevExpress_Wpf_Grid_Printing Condition=" '$(PkgDevExpress_Wpf_Grid_Printing)' == '' ">C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.wpf.grid.printing\24.1.4</PkgDevExpress_Wpf_Grid_Printing>
+    <PkgDevExpress_DataAccess Condition=" '$(PkgDevExpress_DataAccess)' == '' ">C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.dataaccess\24.1.4</PkgDevExpress_DataAccess>
+    <PkgDevExpress_Wpf_ExpressionEditor Condition=" '$(PkgDevExpress_Wpf_ExpressionEditor)' == '' ">C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.wpf.expressioneditor\24.1.4</PkgDevExpress_Wpf_ExpressionEditor>
+    <PkgDevExpress_Wpf_Grid Condition=" '$(PkgDevExpress_Wpf_Grid)' == '' ">C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.wpf.grid\24.1.4</PkgDevExpress_Wpf_Grid>
+    <PkgDevExpress_Wpf_Charts Condition=" '$(PkgDevExpress_Wpf_Charts)' == '' ">C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.wpf.charts\24.1.4</PkgDevExpress_Wpf_Charts>
+    <PkgDevExpress_Wpf_PivotGrid Condition=" '$(PkgDevExpress_Wpf_PivotGrid)' == '' ">C:\Program Files\DevExpress 24.1\Components\Offline Packages\devexpress.wpf.pivotgrid\24.1.4</PkgDevExpress_Wpf_PivotGrid>
+  </PropertyGroup>
 </Project>
